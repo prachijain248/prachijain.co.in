@@ -1,0 +1,200 @@
+.jumbotron-custom {
+  background: #000000 url(../../media/bg.jpg) no-repeat fixed center right;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding: 0px;
+  min-height: 500px;
+}
+.jumbotron-custom .container {
+  position: relative;
+  top: 28%;
+  z-index: 4;
+  text-align: center;
+}
+.jumbotron-custom .container > * {
+  text-align: center;
+  color: #FFFFFF;
+}
+.jumbotron-custom .container .lead {
+  font-size: 55px;
+}
+.jumbotron-custom .overlay {
+  background-color: #0098df;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.5;
+  filter: alpha(opacity=75);
+  z-index: 2;
+}
+.jumbotron-custom h1 {
+  font-size: 115px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+}
+.jumbotron-custom .navigation-menu-scroll {
+  position: absolute;
+  color: #ffffff;
+  background: #000000;
+  right: 5%;
+  bottom: 0px;
+  z-index: 4;
+  width: 110px;
+  height: 100px;
+  text-align: center;
+}
+.jumbotron-custom .navigation-menu-scroll i {
+  padding-top: 15px;
+  font-size: 70px;
+  animation-name: menu-scroll;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes menu-scroll {
+  0% {
+    padding-top: 5px;
+  }
+  50% {
+    padding-top: 25px;
+  }
+  100% {
+    padding-top: 35px;
+  }
+}
+.container-fluid .mid {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*Inheritance*/
+#summary, #projects, #highlights, #qualification, #contacts {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border-top: 1px solid #ececec;
+}
+
+#highlights, #qualification, #contacts {
+  background-color: #ffffff;
+}
+
+#summary, #projects {
+  background-color: #f7f7f7;
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.navbar {
+  background-color: #000000;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.navbar .navbar-collapse {
+  padding: 0px;
+  max-height: none;
+}
+.navbar .nav > li {
+  display: block;
+}
+.navbar .nav > li a {
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+}
+.navbar .nav > li a:hover, .navbar .nav > li a:focus {
+  color: #999999;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background: #0098df;
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+  background: #0098df;
+  color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #0098df;
+  color: #FFFFFF;
+}
+
+.navbar-default {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background: #222222;
+}
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background: #222222;
+}
+
+footer {
+  Background-color: #f3f3f3;
+  padding: 20px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-brand {
+  height: 80px;
+  padding: 30px 15px;
+  color: #fff !important;
+}
+
+.separator-space {
+  margin-bottom: 30px;
+}
+
+.widthfull {
+  width: 100%;
+}
+
+.project-company-title {
+  background-color: #000;
+  color: #fff;
+  height: 30px;
+}
+.project-company-title th:first-child {
+  padding-left: 20px;
+}
+.project-company-title th:last-child {
+  padding-right: 20px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.project-end:not(:last-child) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: table;
+}
+
+/*# sourceMappingURL=style.css.map */
